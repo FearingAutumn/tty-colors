@@ -1,0 +1,21 @@
+# copy/paste into ~/.bashrc
+# tty-colors - 001-blue
+if [ "$TERM" = "linux" ]; then
+    echo -en "\e]P0213d5b" #black
+    echo -en "\e]P8213d5b" #darkgrey
+    echo -en "\e]P168a7ec" #darkred
+    echo -en "\e]P968a7ec" #red
+    echo -en "\e]P27bb1ec" #darkgreen
+    echo -en "\e]PA7bb1ec" #green
+    echo -en "\e]P38ebbec" #brown
+    echo -en "\e]PB8ebbec" #yellow
+    echo -en "\e]P4a1c5ec" #darkblue
+    echo -en "\e]PCa1c5ec"  #blue
+    echo -en "\e]P5b3cfec" #darkmagenta
+    echo -en "\e]PDb3cfec" #magenta
+    echo -en "\e]P6c6d8ec" #darkcyan
+    echo -en "\e]PEc6d8ec" #cyan
+    echo -en "\e]P7dae2ec" #lightgrey
+    echo -en "\e]PFdae2ec" #white
+    clear #for background artifacting
+fi
